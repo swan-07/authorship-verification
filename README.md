@@ -9,6 +9,7 @@ Code for cleaning and modifying datasets can be found in [https://github.com/swa
 Datasets used to produce the final dataset are:
 
 1. Reuters50
+
 @misc{misc_reuter_50_50_217,
   author       = {Liu,Zhi},
   title        = {{Reuter_50_50}},
@@ -18,6 +19,7 @@ Datasets used to produce the final dataset are:
 }
 
 2. The Blog Authorship Corpus
+
 @misc{misc_blog_authorship_corpus,
   author       = {J. Schler, M. Koppel, S. Argamon and J. Pennebaker},
   title        = {{Effects of Age and Gender on Blogging}},
@@ -27,6 +29,7 @@ Datasets used to produce the final dataset are:
 }
 
 3. Victorian
+
 @misc{misc_victorian_era_authorship_attribution_454,
   author       = {Gungor,Abdulmecit},
   title        = {{Victorian Era Authorship Attribution}},
@@ -36,6 +39,7 @@ Datasets used to produce the final dataset are:
 }
 
 4. arXiv
+
 @misc{misc_arXiv_100authors_comp_sci,
   author       = {Moreo, Alejandro},
   title        = {{arXiv abstracts and titles from 1,469 single-authored papers (100 unique authors) in computer science
@@ -46,6 +50,7 @@ Datasets used to produce the final dataset are:
 }
 
 5. DarkReddit
+
 @article{DBLP:journals/corr/abs-2112-05125,
   author    = {Andrei Manolache and
                Florin Brad and
@@ -93,6 +98,7 @@ Datasets used to produce the final dataset are:
 }
 
 6. British Academic Written English (BAWE)
+
 @misc{20.500.12024/2539,
  title = {British Academic Written English Corpus},
  author = {Nesi, Hilary and Gardner, Sheena and Thompson, Paul and Wickens, Paul},
@@ -102,6 +108,7 @@ Datasets used to produce the final dataset are:
  year = {2008} }
 
 7. IMDB62
+
 @article{seroussi2014authorship,
   title={Authorship attribution with topic models},
   author={Seroussi, Yanir and Zukerman, Ingrid and Bohnert, Fabian},
@@ -114,6 +121,7 @@ Datasets used to produce the final dataset are:
 }
 
 8. PAN11
+
 @misc{misc_pan11-author-identification-corpora,
   author       = {Argamon, Shlomo and Juola, Patrick},
   title        = {{PAN11 Author Identification: Attribution}},
@@ -123,6 +131,7 @@ Datasets used to produce the final dataset are:
 }
 
 9. PAN13
+
 @misc{misc_pan13-authorship-verification-test-and-training,
   author       = {Juola, Patrick and Stamatatos, Efstathios},
   title        = {{PAN13 Author Identification: Verification}},
@@ -132,6 +141,7 @@ Datasets used to produce the final dataset are:
 }
 
 10. PAN14
+
 @misc{misc_pan14-authorship-verification-test-and-training,
   author = {Stamatatos,  Efstathios and Daelemans,  Walter and Verhoeven,  Ben and Potthast,  Martin and Stein,  Benno and Juola,  Patrick and A. Sanchez-Perez,  Miguel and Barrón-Cedeño,  Alberto},
   title        = {{PAN14 Author Identification: Verification}},
@@ -141,6 +151,7 @@ Datasets used to produce the final dataset are:
 }
 
 11. PAN15
+
 @misc{misc_pan15-authorship-verification-test-and-training,
   author = {Stamatatos,  Efstathios and Daelemans Daelemans amd Ben Verhoeven,  Walter and Juola,  Patrick and López-López,  Aurelio and Potthast,  Martin and Stein,  Benno},
   title        = {{PAN15 Author Identification: Verification}},
@@ -150,6 +161,7 @@ Datasets used to produce the final dataset are:
 }
 
 12. PAN20
+
 @Article{stein:2020k,
   author =              {Sebastian Bischoff and Niklas Deckers and Marcel Schliebs and Ben Thies and Matthias Hagen and Efstathios Stamatatos and Benno Stein and Martin Potthast},
   journal =             {CoRR},
@@ -179,6 +191,7 @@ using the open-set unseen all split from
   biburl    = {https://dblp.org/rec/journals/corr/abs-2112-05125.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 @inproceedings{Kestemont2020OverviewOT,
   author    = {Mike Kestemont and
                Enrique Manjavacas and
