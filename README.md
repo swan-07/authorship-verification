@@ -39,6 +39,7 @@ Datasets used to produce the final dataset are:
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C5DS42}
 }
+
 License: (CC BY 4.0)
 
 2. The Blog Authorship Corpus
@@ -50,7 +51,8 @@ License: (CC BY 4.0)
   howpublished = {2006 AAAI Spring Symposium on Computational Approaches for Analyzing Weblogs},
   note         = {https://u.cs.biu.ac.il/~schlerj/schler_springsymp06.pdf}
 }
-License from https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus: The corpus may be freely used for non-commercial research purposes. Any resulting publications should cite the following:
+
+License from https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus: The corpus may be freely used for non-commercial research purposes. 
 
 3. Victorian
 
@@ -61,6 +63,7 @@ License from https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus: The
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C5SW4H}
 }
+
 License: (CC BY 4.0)
 
 4. arXiv
@@ -73,6 +76,7 @@ License: (CC BY 4.0)
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.7404702}
 }
+
 License: (CC BY 4.0)
 
 5. DarkReddit
@@ -122,6 +126,7 @@ License: (CC BY 4.0)
   biburl    = {https://dblp.org/rec/conf/clef/KestemontMMBWSP20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 License from https://github.com/bit-ml/Dupin/tree/main: not disclosed
 
 6. British Academic Written English (BAWE)
@@ -133,6 +138,7 @@ License from https://github.com/bit-ml/Dupin/tree/main: not disclosed
  note = {Oxford Text Archive},
  copyright = {Distributed by the University of Oxford under a Creative Commons Attribution-{NonCommercial}-{ShareAlike} 3.0 Unported License.},
  year = {2008} }
+ 
  License from https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2539: (CC BY-NC-SA 3.0) 
 
 7. IMDB62
@@ -147,7 +153,8 @@ License from https://github.com/bit-ml/Dupin/tree/main: not disclosed
   year={2014},
   publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
 }
-License from https://umlt.infotech.monash.edu/?page_id=266: not specified
+
+License from https://umlt.infotech.monash.edu/?page_id=266: not disclosed
 
 8. PAN11
 
@@ -158,7 +165,8 @@ License from https://umlt.infotech.monash.edu/?page_id=266: not specified
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3713245}
 }
-License: not specified
+
+License: not disclosed
 
 9. PAN13
 
@@ -169,7 +177,8 @@ License: not specified
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3715998}
 }
-License: not specified
+
+License: not disclosed
 
 10. PAN14
 
@@ -180,7 +189,8 @@ License: not specified
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3716032}
 }
-License: not specified
+
+License: not disclosed
 
 11. PAN15
 
@@ -191,7 +201,8 @@ License: not specified
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3737563}
 }
-License: not specified
+
+License: not disclosed
 
 12. PAN20
 
