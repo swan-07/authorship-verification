@@ -7,6 +7,10 @@ Website code can be found at [https://github.com/swan-07/streamlit-av](url)
 
 Code detailed in this repo was run in Jupyter Notebooks, and model scripts (everything in the Models section below) was run on  RunPod with an A100 SXM.
 
+Pipeline:
+![pipeline](https://github.com/swan-07/authorship-verification/assets/100081902/ad507f59-c3b9-40cb-a0a6-04ef380b4fe8)
+
+
 # Models
 
 [https://github.com/swan-07/authorship-verification/tree/main/featurevector](url) has code for implementing the Feature Vector model, modified from the implementation in [https://github.com/janithnw/pan2021_authorship_verification/tree/main](url).
