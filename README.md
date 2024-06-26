@@ -3,7 +3,7 @@ Code for authorship verification research project. (Code is a little messy right
 
 Website code can be found at [https://github.com/swan-07/streamlit-av](url)
 
-[Website hosted at https://same-writer-detector.streamlit.app/](url)
+Website hosted at [https://same-writer-detector.streamlit.app/](url)
 
 Code detailed in this repo was run in Jupyter Notebooks, and model scripts (everything in the Models section below) was run on  RunPod with an A100 SXM.
 
