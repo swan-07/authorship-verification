@@ -1,10 +1,28 @@
 # authorship-verification
 Code for authorship verification research project. (Code is a little messy right now, see paper for overview)
 
-Website code can be found at https://github.com/swan-07/streamlit-av
+Website code can be found at [https://github.com/swan-07/streamlit-av](url)
 
-Website hosted at https://same-writer-detector.streamlit.app/
+[Website hosted at https://same-writer-detector.streamlit.app/](url)
 
+Code detailed in this repo was run in Jupyter Notebooks, and model scripts (everything in the Models section below) was run on  RunPod with an A100 SXM.
+
+# Models
+
+[https://github.com/swan-07/authorship-verification/tree/main/featurevector](url) has code for implementing the Feature Vector model, modified from the implementation in [https://github.com/janithnw/pan2021_authorship_verification/tree/main](url).
+
+Run preprocess.ipynb to preprocess the data (takes a LONG time, I split it into multiple chunks to run at once and combined them in combine.ipynb). 
+
+Run large_train_model.ipynb to create feature vectors and train the model.
+
+Use large_predict.ipynb for predictions and getting important features.
+
+[https://github.com/swan-07/authorship-verification/tree/main/siamesebert/methods](url) has code for implementing the Embedding model.
+
+Run bert.ipynb to train the BERT model (based off the implementation in [https://github.com/JacobTyo/Valla/tree/main](url)).
+
+Run logreg.ipynb to fit a logistic regression model to calibrate probability predictions based off of cosine similarity of the embeddings as well as do attention-based highlighting and predictions.
+ 
 # Datasets
 Dataset curated can be found on huggingface at [https://huggingface.co/datasets/swan07/authorship-verification](url)
 
