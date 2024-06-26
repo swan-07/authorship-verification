@@ -39,6 +39,7 @@ Datasets used to produce the final dataset are:
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C5DS42}
 }
+License: (CC BY 4.0)
 
 2. The Blog Authorship Corpus
 
@@ -49,6 +50,7 @@ Datasets used to produce the final dataset are:
   howpublished = {2006 AAAI Spring Symposium on Computational Approaches for Analyzing Weblogs},
   note         = {https://u.cs.biu.ac.il/~schlerj/schler_springsymp06.pdf}
 }
+License from https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus: The corpus may be freely used for non-commercial research purposes. Any resulting publications should cite the following:
 
 3. Victorian
 
@@ -59,6 +61,7 @@ Datasets used to produce the final dataset are:
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C5SW4H}
 }
+License: (CC BY 4.0)
 
 4. arXiv
 
@@ -70,6 +73,7 @@ Datasets used to produce the final dataset are:
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.7404702}
 }
+License: (CC BY 4.0)
 
 5. DarkReddit
 
@@ -118,6 +122,7 @@ Datasets used to produce the final dataset are:
   biburl    = {https://dblp.org/rec/conf/clef/KestemontMMBWSP20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+License from https://github.com/bit-ml/Dupin/tree/main: not disclosed
 
 6. British Academic Written English (BAWE)
 
@@ -128,6 +133,7 @@ Datasets used to produce the final dataset are:
  note = {Oxford Text Archive},
  copyright = {Distributed by the University of Oxford under a Creative Commons Attribution-{NonCommercial}-{ShareAlike} 3.0 Unported License.},
  year = {2008} }
+ License from https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2539: (CC BY-NC-SA 3.0) 
 
 7. IMDB62
 
@@ -141,6 +147,7 @@ Datasets used to produce the final dataset are:
   year={2014},
   publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
 }
+License from https://umlt.infotech.monash.edu/?page_id=266: not specified
 
 8. PAN11
 
@@ -149,8 +156,9 @@ Datasets used to produce the final dataset are:
   title        = {{PAN11 Author Identification: Attribution}},
   year         = {2011},
   howpublished = {Zenodo},
-  note         = {{DOI}: https://doi.org/10.5281/zenodo.7404702}
+  note         = {{DOI}: https://doi.org/10.5281/zenodo.3713245}
 }
+License: not specified
 
 9. PAN13
 
@@ -161,6 +169,7 @@ Datasets used to produce the final dataset are:
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3715998}
 }
+License: not specified
 
 10. PAN14
 
@@ -171,6 +180,7 @@ Datasets used to produce the final dataset are:
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3716032}
 }
+License: not specified
 
 11. PAN15
 
@@ -181,6 +191,7 @@ Datasets used to produce the final dataset are:
   howpublished = {Zenodo},
   note         = {{DOI}: https://doi.org/10.5281/zenodo.3737563}
 }
+License: not specified
 
 12. PAN20
 
@@ -240,6 +251,9 @@ using the open-set unseen all split from
   biburl    = {https://dblp.org/rec/conf/clef/KestemontMMBWSP20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+License from https://github.com/bit-ml/Dupin/tree/main: not disclosed
+
 
 Datasets were cleaned, named entities were replaced with their general type in all except PAN14, PAN15, and PAN20, and datasets were restructured into dataframes with columns |text1|text2|same| where a value of 0 in same meant the two texts had different authors, while a value of 1 meant the two texts had the same author.
 
