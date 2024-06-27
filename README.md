@@ -11,7 +11,8 @@ Pipeline:
 
 ![pipeline](https://github.com/swan-07/authorship-verification/assets/100081902/ad507f59-c3b9-40cb-a0a6-04ef380b4fe8)
 
-Slides: [https://docs.google.com/presentation/d/1zG6BA4hjz4E12kYroUOce2GK8M6MuL8UAWxcHkyKqaw/edit?usp=sharing](url)
+Slides: 
+[https://docs.google.com/presentation/d/1zG6BA4hjz4E12kYroUOce2GK8M6MuL8UAWxcHkyKqaw/edit?usp=sharing](url)
 
 # Models
 
