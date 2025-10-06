@@ -5,6 +5,8 @@ Website code can be found at [https://github.com/swan-07/streamlit-av](url)
 
 Website hosted at [https://same-writer-detector.streamlit.app/](url)
 
+Paper can be found at [https://swan-07.github.io/assets/Transparent%20Authorship%20Verification.pdf](url)
+
 Code detailed in this repo was run in Jupyter Notebooks, and model scripts (everything in the Models section below) was run on  RunPod with an A100 SXM.
 
 Pipeline:
