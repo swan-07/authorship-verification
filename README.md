@@ -1,9 +1,9 @@
 # authorship-verification
 Code for authorship verification research project. (Code is a little messy right now, see paper for overview)
 
-Website code can be found at [https://github.com/swan-07/streamlit-av](url)
+Website code can be found at [https://github.com/swan-07/streamlit-av](https://github.com/swan-07/streamlit-av)
 
-Website hosted at [https://same-writer-detector.streamlit.app/](url)
+Website hosted at [https://same-writer-detector.streamlit.app/](https://same-writer-detector.streamlit.app/)
 
 Paper can be found at [https://swan-07.github.io/assets/Transparent%20Authorship%20Verification.pdf](url)
 
