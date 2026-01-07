@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Models and data (too large for git)
+models/*.pkl
+models/*.safetensors
+models/bert-finetuned-authorship/
+data/*.npz
+data/*.pkl
+checkpoints_archive/
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+temp_scripts/
+/tmp/
+*.tmp
+
+# Keep README files
+!*/README.md
+!README.md
+
+
+# Data files
+data/*.npz
+data/*.pkl

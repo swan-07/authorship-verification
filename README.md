@@ -1,9 +1,53 @@
 # authorship-verification
-Code for authorship verification research project. (Code is a little messy right now, see paper for overview)
 
-Website code can be found at [https://github.com/swan-07/streamlit-av](url)
+---
 
-Website hosted at [https://same-writer-detector.streamlit.app/](url)
+## 🆕 Repository Updates (January 2026)
+
+**New additions to this repository:**
+
+- **Reorganized Structure**: Files organized into folders (`app/`, `models/`, `training/`, `testing/`, `analysis/`, `logs/`, `visualizations/`, `data/`)
+- **New Models**: Added simplified Stylometric + BERT + Ensemble models with improved performance
+  - `training/train_stylometric_pan.py` - Train stylometric model
+  - `training/finetune_bert_v2.py` - Fine-tune BERT
+  - `training/create_ensemble.py` - Create ensemble
+  - `testing/test_ensemble_detailed.py` - Evaluate models
+- **Streamlit App**: Interactive demo with interpretability in `app/` folder
+  - View site with https://same-writer-detector.streamlit.app/
+  - Or run locally with: `cd app && streamlit run authorship_app.py`
+- **Documentation**: Added `DIRECTORY_STRUCTURE.md`, `CHANGELOG.md`, and `app/README.md`
+
+**Performance Comparison:**
+
+| Model | Accuracy | F1 Score | AUC |
+|-------|----------|----------|-----|
+| **Original Models (from paper):** | | | |
+| Fine-tuned BERT | 52.4% | 68.8% | N/A |
+| Feature Vector | 62.6% | 65.3% | 0.646 |
+| **Original Models (recreated from paper):** | | | |
+| Base BERT + Calibration | 63.7% | 58.2% | 0.676 |
+| Fine-tuned BERT + Calibration | 70.1% | 71.6% | 0.760 |
+| Feature Vector | 58.6% | 57.9% | 0.619 |
+| **New Models (Jan 2026):** | | | |
+| BERT (fine-tuned, simplified) | 73.9% | 73.8% | 0.821 |
+| Stylometric (PAN-style) | 62.2% | 57.1% | 0.665 |
+| **Ensemble (BERT + Stylometric)** | **73.9%** | **73.8%** | **0.823** |
+
+*New models achieve +3.8% accuracy and +0.063 AUC improvement over previous best*
+
+**Original code from the paper is preserved** in `featurevector/` and `siamesebert/` folders.
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed changes.
+
+---
+
+Code for authorship verification research project.
+
+Website code can be found at [https://github.com/swan-07/streamlit-av](https://github.com/swan-07/streamlit-av)
+
+Website hosted at [https://same-writer-detector.streamlit.app/](https://same-writer-detector.streamlit.app/)
+
+Paper can be found at [https://swan-07.github.io/assets/Transparent%20Authorship%20Verification.pdf](https://swan-07.github.io/assets/Transparent%20Authorship%20Verification.pdf)
 
 Code detailed in this repo was run in Jupyter Notebooks, and model scripts (everything in the Models section below) was run on  RunPod with an A100 SXM.
 
@@ -15,7 +59,7 @@ Slides: https://docs.google.com/presentation/d/1zG6BA4hjz4E12kYroUOce2GK8M6MuL8U
 
 # Models
 
-[https://github.com/swan-07/authorship-verification/tree/main/featurevector](url) has code for implementing the Feature Vector model, modified from the implementation in [https://github.com/janithnw/pan2021_authorship_verification/tree/main](url).
+[https://github.com/swan-07/authorship-verification/tree/main/featurevector](https://github.com/swan-07/authorship-verification/tree/main/featurevector) has code for implementing the Feature Vector model, modified from the implementation in [https://github.com/janithnw/pan2021_authorship_verification/tree/main](https://github.com/janithnw/pan2021_authorship_verification/tree/main).
 
 Run preprocess.ipynb to preprocess the data (takes a LONG time, I split it into multiple chunks to run at once and combined them in combine.ipynb). 
 
@@ -23,16 +67,16 @@ Run large_train_model.ipynb to create feature vectors and train the model.
 
 Use large_predict.ipynb for predictions and getting important features.
 
-[https://github.com/swan-07/authorship-verification/tree/main/siamesebert/methods](url) has code for implementing the Embedding model.
+[https://github.com/swan-07/authorship-verification/tree/main/siamesebert/methods](https://github.com/swan-07/authorship-verification/tree/main/siamesebert/methods) has code for implementing the Embedding model.
 
-Run bert.ipynb to train the BERT model (based off the implementation in [https://github.com/JacobTyo/Valla/tree/main](url)).
+Run bert.ipynb to train the BERT model (based off the implementation in [https://github.com/JacobTyo/Valla/tree/main](https://github.com/JacobTyo/Valla/tree/main)).
 
 Run logreg.ipynb to fit a logistic regression model to calibrate probability predictions based off of cosine similarity of the embeddings as well as do attention-based highlighting and predictions.
  
 # Datasets
-Dataset curated can be found on huggingface at [https://huggingface.co/datasets/swan07/authorship-verification](url)
+Dataset curated can be found on huggingface at [https://huggingface.co/datasets/swan07/authorship-verification](https://huggingface.co/datasets/swan07/authorship-verification)
 
-Code for cleaning and modifying datasets can be found in [https://github.com/swan-07/authorship-verification/blob/main/Authorship_Verification_Datasets.ipynb](url) and is detailed in paper.
+Code for cleaning and modifying datasets can be found in [https://github.com/swan-07/authorship-verification/blob/main/Authorship_Verification_Datasets.ipynb](https://github.com/swan-07/authorship-verification/blob/main/Authorship_Verification_Datasets.ipynb) and is detailed in paper.
 
 Datasets used to produce the final dataset are:
 

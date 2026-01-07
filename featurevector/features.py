@@ -35,7 +35,8 @@ treebank_tokenizer = nltk.tokenize.TreebankWordTokenizer()
 nlp_stanza = None #stanza.Pipeline(lang='en', processors='tokenize', tokenize_no_ssplit=True)
 nlp_spacy = None #spacy.load("en_core_web_sm", disable=['ner'])
 
-tagger = nltk.data.load(os.path.join(dirname, "pos_tagger/treebank_brill_aubt.pickle"))
+# Use PerceptronTagger instead of old BrillTagger (security fix)
+tagger = PerceptronTagger()
 perceptron_tagger = PerceptronTagger()
 
 grammar = r"""
