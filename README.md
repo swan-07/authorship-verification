@@ -2,7 +2,7 @@
 
 ---
 
-## 🆕 Repository Updates (January 2026)
+## Updates (January 2026)
 
 **New additions to this repository:**
 
@@ -32,8 +32,6 @@
 | BERT (fine-tuned, simplified) | 73.9% | 73.8% | 0.821 |
 | Stylometric (PAN-style) | 62.2% | 57.1% | 0.665 |
 | **Ensemble (BERT + Stylometric)** | **73.9%** | **73.8%** | **0.823** |
-
-*New models achieve +3.8% accuracy and +0.063 AUC improvement over previous best*
 
 **Original code from the paper is preserved** in `featurevector/` and `siamesebert/` folders.
 
