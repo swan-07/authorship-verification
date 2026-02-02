@@ -4,6 +4,7 @@
 
 ## Updates (January 2026)
 
+[**Intro Video**](https://www.loom.com/share/932ce88d763549b0b6fdf4c962da1c2c)
 **New additions to this repository:**
 
 - **Reorganized Structure**: Files organized into folders (`app/`, `models/`, `training/`, `testing/`, `analysis/`, `logs/`, `visualizations/`, `data/`)
